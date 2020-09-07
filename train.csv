@@ -1,0 +1,320 @@
+repository_name,commit_hash,commit_date,commit_author,commit_message,bugs
+"mlm","b28abb42","2020-06-12T14:26:12","Victor","объяснения предсказаний с помощью lime",4
+"mlm","438b5c4d","2020-06-12T11:53:10","Victor","Поставил lime вместо eli5",3
+"mlm","8e6e4f31","2020-06-11T15:19:03","Victor","Скрипт для создния пакетов обновления",4
+"mlm","5e0956a6","2020-06-11T10:42:29","Victor","Сортировка весов по убыванию",3
+"mlm","b9f4b40c","2020-06-11T09:25:19","Victor","не надо конвертировать массив до операции по смене знака",7
+"mlm","4f5f3743","2020-06-11T09:12:37","Peggy","Добавлено больше логирования и фикс до частичной работоспособности",6
+"mlm","24a11c40","2020-06-10T15:34:22","Victor","Отладка, чтоб оно хотябы запускалось",4
+"mlm","3287c74a","2020-06-10T15:34:04","Victor","Добавил скрипт для запуска контейнера",4
+"mlm","c78d5187","2020-06-10T15:22:21","Victor","label не нужен",2
+"mlm","bcb47e60","2020-06-10T14:54:14","Victor","Установка всех зависимостей теперь в докер файле",5
+"mlm","edccc275","2020-06-10T14:32:09","Victor","Использование sha256",2
+"mlm","7dada598","2020-06-10T13:45:37","Peggy","Обновление схем",1
+"mlm","7358f296","2020-06-10T13:05:18","Victor","Не сохранять неизвестные поля, на них нельзя обучаться и поэтому нет смысла их хранить",11
+"mlm","d00a4637","2020-06-10T12:51:30","Victor","hdf5 не умеет хранить матрицы различных типов, сделал группу с хешами, а в...",10
+"mlm","1536a0ff","2020-06-10T11:15:54","Victor","Скрипт для создания датасета из csv файла",5
+"mlm","203d9ca2","2020-06-10T10:17:03","Victor","тип и всякие статичные данные пусть лежат в датасете",7
+"mlm","eda23d40","2020-06-10T10:12:46","Victor","eli5 предсказание для бинарных классификаторов",4
+"mlm","90a3bcc7","2020-06-10T08:34:15","Victor","Функции проверки меток",2
+"mlm","a91623e9","2020-06-09T17:37:52","Victor","Апи для моделей и датасетов",4
+"mlm","dbb5fc69","2020-06-05T17:15:17","Victor","Пересмотрели архитектуру, теперь все запросы через http",6
+"mlm","e042bf92","2020-06-04T16:17:51","Victor","Перешли с npz на hdf5",4
+"mlm","ec6a6f00","2020-06-03T12:02:24","Victor","добавил aiohttp",2
+"mlm","f131459d","2020-06-03T11:54:37","Victor","Диаграмы процессов и архитектуры",3
+"mlm","438425bc","2020-06-02T12:43:19","Victor","Оптимизировал докер файл",2
+"mlm","62cefb70","2020-06-02T12:27:05","Victor","Models loading in memory",3
+"mlm","9a8de3a1","2020-03-22T13:41:08","Victor","Multiple cursors",3
+"mlm","57d85e10","2020-03-22T13:13:33","Victor","Check Lables",3
+"mlm","e6152145","2020-03-22T13:00:09","Victor","send results to mysql",5
+"mlm","3dee0db3","2020-03-21T12:56:03","Victor","no feature names in queue calls",8
+"mlm","edb9c5ee","2020-03-21T10:41:55","Victor","Fixed continous error",4
+"mlm","9dfb4bec","2020-03-09T16:16:02","Victor","Default rabbitMQ NETWORK ip",6
+"mlm","92f864da","2020-03-09T16:15:14","Victor","Docker COPY cannot in directories",7
+"mlm","a61b1c09","2020-03-09T16:14:32","Victor","Removed default freeze package",6
+"mlm","1f1144f1","2020-03-09T16:13:45","Victor","aio_pika connection_closed loop",4
+"mlm","db68ce25","2020-03-09T14:33:18","Victor","global variable assignment without global",7
+"mlm","af7c2776","2020-03-08T17:46:38","Victor","Saving unknown labels on emergency saving",9
+"mlm","bb54e4e6","2020-03-08T17:23:12","Victor","Small Fixes in main.py to make it work",12
+"mlm","a8b55539","2020-03-08T17:19:19","Victor","Added .gitignore",3
+"mlm","29ba5151","2020-03-08T17:18:35","Victor","Small Fixes in models.py to make it work",12
+"mlm","bfa1152f","2020-03-08T15:38:30","Victor","JsonMaster as function separator",6
+"mlm","79db41fb","2020-03-08T14:26:16","Victor","Initial commit",3
+"standard","5291cf7f","2020-05-21T16:06:09","Wendy","fix trap",1
+"standard","b904f026","2020-05-21T16:04:16","Wendy","oups fixed dist",0
+"standard","5dbea449","2020-05-21T15:47:32","Wendy","Добавлены теги к service",3
+"standard","5ec1a987","2020-05-18T06:04:34","Victor","Статус файла на проверке pending или complete",6
+"standard","6ba6c317","2020-05-15T23:26:11","Wendy","Merge branch 'master' of ",3
+"standard","c096e5bf","2020-05-15T23:22:59","Wendy","Добавлена возможность создания тунелей",3
+"standard","edd2e76d","2020-05-14T15:06:39","Wendy","Изменены поля создания атаки",3
+"standard","e4b384b3","2020-05-14T14:49:28","Victor","Обработка сессий от коври",3
+"standard","97bfc357","2020-05-14T13:14:58","Wendy","delete trash",2
+"standard","3795475a","2020-05-14T13:08:33","Wendy","Merge branch 'master' of ",3
+"standard","e88154ed","2020-05-14T13:02:32","Wendy","Commit",1
+"standard","9785eb11","2020-05-13T16:35:53","Victor","testing/trapped_files",1
+"standard","86e14e9d","2020-05-13T13:34:37","Victor","Добавил проверку вердикта для загруженных файлов",5
+"standard","3c6ba275","2020-05-12T17:18:22","Victor","Обновил комманды для еластика созданием подстановок",5
+"standard","a29e81fc","2020-05-08T09:02:57","Wendy","Update mapping",2
+"standard","92aa277c","2020-05-07T15:07:31","Wendy","Добавлен стек 7.6 версии",3
+"standard","183b3517","2020-05-06T16:50:10","Victor","Импортировал зависимости для вебхука",4
+"standard","80e78f2e","2020-05-05T15:59:31","Victor","Fix 2 args devextreme filter",4
+"standard","ebc56cec","2020-05-05T12:28:14","Wendy","Update FullStarter.sh",2
+"standard","66d945aa","2020-05-05T12:25:43","Wendy","Исправлены ошибки конвертации из DevExtreme в sql запрос",7
+"standard","366750c8","2020-05-05T10:02:27","Victor","Fix proxy_install",2
+"standard","b45ea5ff","2020-05-01T14:43:23","Victor","fix set_state",2
+"standard","d3bcbe0f","2020-05-01T14:05:14","Victor","fix set_state",2
+"standard","b386794e","2020-05-01T12:30:27","Wendy","Фикс фильтрации справочников",3
+"standard","53a70726","2020-05-01T11:49:24","Victor","Fix update_check_list",2
+"standard","5f93d3e7","2020-05-01T11:34:47","Victor","Забыл логирование в state_controller",4
+"standard","a20027c8","2020-05-01T11:16:37","Victor","Добавил состояния для прокси",4
+"standard","291d61b0","2020-05-01T08:02:33","Wendy","Добавлен отправщик правил сурикаты",3
+"standard","29eb1b35","2020-04-30T17:18:15","Wendy","Initial commit",2
+"agent","8a79f45a","2020-06-09T12:07:38","Victor","self deploy",1
+"agent","a02a28ef","2020-06-08T07:54:27","Victor","Делать бэкап при первом запуске",3
+"agent","ba2e2e4d","2020-06-05T16:36:09","Victor","added deploy scripts",2
+"agent","bd7d2bec","2020-06-05T11:53:30","Victor","Смена адреса хоста обновлений",3
+"agent","d0dc6d3c","2020-05-27T12:13:53","Victor","Added update logs",2
+"agent","9e02a679","2020-05-22T16:08:34","Victor","Обращение к главному серверу",3
+"agent","bda75ca8","2020-05-22T15:35:28","Victor","Логирование всех выполненых на хосте команд",4
+"agent","5c15329d","2020-05-22T14:57:16","Victor","Поправки после запуска на тестовом сервере",4
+"agent","7243a436","2020-05-22T11:53:13","Victor","Подключение с приватным ключем",3
+"agent","9adb67cf","2020-05-20T15:40:58","Victor","Импорт одной функции из storage.py вместо *",5
+"agent","1db8c0b0","2020-05-20T14:36:29","Victor","Изменение версии и статуса, после обновления",5
+"agent","2a88dcb3","2020-05-20T13:27:02","Victor","Деплой через ssh",2
+"agent","3ce97d83","2020-05-19T18:33:05","Victor","Исправления с тестами",2
+"agent","dceada15","2020-05-19T16:45:21","Victor","Initial commit",2
+"conductor","ddf7c557","2020-06-12T09:45:18","Wendy","Улучшен алгоритм отправки файла",2
+"conductor","ae539a47","2020-06-11T16:00:55","Wendy","add check before upload",2
+"conductor","341d6116","2020-06-11T10:47:25","Wendy","fix turnoff filebeat",2
+"conductor","dea39c26","2020-06-10T16:30:46","Wendy","fix IMAGES when wrong yaml",3
+"conductor","b324feb4","2020-06-10T15:47:06","Wendy","changed images",1
+"conductor","59efac16","2020-06-10T10:16:27","Wendy","add log cleaner",2
+"conductor","f5676284","2020-06-04T21:19:11","Wendy","fix oups",1
+"conductor","d541c3b3","2020-06-04T21:04:30","Wendy","add sync when suricata install",3
+"conductor","62635011","2020-06-04T18:20:08","Wendy","Изменён способ доставки правил сурикаты",3
+"conductor","5840de2f","2020-05-29T10:52:05","Wendy","little fix and clear",0
+"conductor","3aa6425e","2020-05-29T09:34:35","Wendy","Добавлены алерты на неработающие правила сурикаты",4
+"conductor","ae0c434a","2020-05-21T13:30:16","Wendy","Update src/express.py",1
+"conductor","75c7c968","2020-05-14T15:05:18","Victor","Поменял название полей для создания туней в соответсвии с именами на хосте",9
+"conductor","ae592bde","2020-05-14T13:59:17","Victor","Удаление всех образов по имени",4
+"conductor","750982bd","2020-05-13T12:57:54","Victor","Не создавать директорию если в конце есть точка(скорее всего это файл)",8
+"conductor","77518c79","2020-05-08T16:17:29","Victor","Download rules twhen suricata installed",4
+"conductor","e5b1c89c","2020-05-07T09:59:58","Victor","Установка прав скриптом",2
+"conductor","80d59335","2020-05-06T15:40:37","Victor","Update service.py",2
+"conductor","b62c74f3","2020-05-01T22:47:59","Wendy","Update service.py",1
+"conductor","7f06d50a","2020-05-01T16:44:39","Victor","Починил ошибку 403 на тунелировании",4
+"conductor","7fb578d7","2020-05-01T13:57:13","Victor","Менее упорная отправка",2
+"conductor","ff73aac8","2020-05-01T13:43:13","Victor","Переименовал функцию изза конфликта имен",4
+"conductor","5b6e921e","2020-05-01T13:28:30","Victor","rsplit не переворачивает список",3
+"conductor","30614b90","2020-05-01T13:27:02","Victor","Добавил проброс туннеля",2
+"conductor","fa38354d","2020-05-01T13:06:43","Victor","Проверять наличие образа в регистре не надо",5
+"conductor","38ae6df4","2020-05-01T11:24:26","Wendy","Изменена частота /keepalive",2
+"conductor","d188f8b4","2020-05-01T09:19:19","Wendy","Изменение способов перезагрузки правил у Suricata",4
+"conductor","bda1e278","2020-04-30T17:57:00","Victor","suricata rules download",2
+"conductor","381d714a","2020-04-30T13:01:36","Victor","права ему не нравятся, значит",4
+"conductor","d5ec27d7","2020-04-30T11:44:04","Victor","хэш вычисляется у существующих файлов",4
+"conductor","ad7ba9b3","2020-04-29T10:44:23","Victor","Обработка событий, если heartbeat выдаст ошибку",5
+"conductor","a1f53838","2020-04-24T18:44:29","Trudy","биндим на внутренний ip ловушки",4
+"conductor","3d58872e","2020-04-24T18:32:08","Trudy","закомментировал удаление папок в observer",4
+"conductor","d5466c91","2020-04-24T15:43:30","Trudy","json",1
+"conductor","ebaf02a6","2020-04-24T15:16:27","Trudy","secure webservice ip",2
+"conductor","73fbc1b4","2020-04-24T14:31:56","Victor","Обновить 'src/monitor.py'",2
+"conductor","1e6c10c7","2020-04-24T14:05:14","Trudy","keep_alive url changed",2
+"conductor","89256b89","2020-04-24T13:48:57","Trudy","heartbeat",1
+"conductor","2f64568b","2020-04-24T09:40:23","Wendy","Убраны ошибки с отсутствием прав на директории",5
+"conductor","c9fbbd2d","2020-04-20T12:25:15","Victor","changed default port",3
+"conductor","4dd56c1c","2020-04-17T17:37:29","Mallory","suricata check availability",2
+"conductor","61ac9620","2020-04-17T14:14:21","Mallory","observe downloads by pattern",3
+"conductor","a6b4a5c5","2020-04-17T13:27:01","Mallory","added service hashsum",2
+"conductor","fa29d5be","2020-04-15T17:06:41","Mallory","don't spend resources on good services",4
+"conductor","98f78a60","2020-04-15T17:00:44","Mallory","wait service to start to prevent memory errrors",6
+"conductor","8d3fe73b","2020-04-15T16:34:01","Mallory","added error_on_start state",2
+"conductor","d4dc50ac","2020-04-15T15:48:51","Mallory","remove networks when image removes",4
+"conductor","6dc4eb2c","2020-04-15T13:53:22","Mallory","filebeat image renamed",2
+"conductor","d1e89666","2020-04-15T13:33:26","Mallory","Если Filebeat поле пустое то не нужно создавать для него конфиг",8
+"conductor","e95b0f34","2020-04-14T15:51:19","Mallory","post service name field renamed",4
+"conductor","e637a264","2020-04-14T14:56:16","Mallory","misspelled pulling",1
+"conductor","9b0f5187","2020-04-13T12:57:17","Mallory","compose configs moved to traps/docker",4
+"conductor","cfcf955a","2020-04-10T16:23:40","Mallory","renamed filebeat compose config extension",4
+"conductor","92ac175d","2020-04-10T16:13:08","Mallory","moved config files to /opt/avssoft/configs",4
+"conductor","de7a11b0","2020-04-10T11:00:38","Mallory","folders removing",2
+"conductor","20df4d3f","2020-04-10T10:59:45","Mallory","added stopping state",2
+"conductor","b206ee70","2020-04-09T13:30:59","Mallory","DELETE /delete kinda dumb; removed /delete in delete method",7
+"conductor","510b9895","2020-04-09T13:09:59","Mallory","add missing state to service",4
+"conductor","b7c12321","2020-04-09T12:38:56","Mallory","add size field to polling images",5
+"conductor","dc02cab8","2020-04-09T12:35:08","Mallory","Small fixes in image module to make it all work",0
+"conductor","02cdf68c","2020-04-09T11:41:29","Mallory","Split service pulling into 2 api calls",5
+"conductor","ec2c406b","2020-04-08T13:50:00","Mallory","optimize getting running containers; handling file rename",5
+"conductor","084d94d8","2020-04-08T11:51:23","Eve","Изменен метод взаимодействия с композами с Popen на check_call.",7
+"conductor","a5bb4c29","2020-04-07T16:11:35","Eve","Обновлена функция установки образов",3
+"conductor","23f81c38","2020-04-07T09:21:21","Mallory","async wait for file uploading",4
+"conductor","453ce71e","2020-04-06T18:21:29","Mallory","Update docs",2
+"conductor","831a8b6e","2020-04-06T16:36:00","Mallory","Popen service enabling/disabling; removing images; service status extended",6
+"conductor","177cfbb3","2020-04-06T14:32:58","Mallory","Pull images in fork",3
+"conductor","84ecbabe","2020-04-06T12:22:56","Mallory","Observer sends files to remote proxy",5
+"conductor","88a1a4b8","2020-04-03T16:53:35","Mallory","added file observer",2
+"conductor","2b134598","2020-04-03T12:13:31","Mallory","added kako compose config",3
+"conductor","34102d1c","2020-04-02T16:28:45","Mallory","response status=400 not body",3
+"conductor","d908f516","2020-04-02T16:13:38","Mallory","Services intersection",2
+"conductor","97a2c84c","2020-04-02T13:41:51","Mallory","added dns trap compose config",4
+"conductor","44baa1ff","2020-04-01T16:35:39","Mallory","set intersecction haha",2
+"conductor","77acf487","2020-04-01T16:32:01","Mallory","check port availability",2
+"conductor","5f1270b2","2020-04-01T14:43:38","Mallory","trap ports",2
+"conductor","3a5e1fe3","2020-04-01T14:04:26","Eve","Добавил получение внутреннего IP",3
+"conductor","4bb47f73","2020-04-01T13:34:04","Mallory","removed logstash and cowrie sed /data fix",0
+"conductor","8e1eb44a","2020-03-23T15:53:36","Dabe","logstash config",2
+"conductor","14cfcc01","2020-03-23T15:48:16","Dabe","400g logstash",2
+"conductor","808541d7","2020-03-23T15:02:04","Dabe","reduced mem to 400mb",3
+"conductor","79becb27","2020-03-23T14:54:47","Dabe","logstash memory restriction",2
+"conductor","2ac97ed6","2020-03-23T10:44:12","Dabe","logs path",2
+"conductor","d1e7ebdc","2020-03-22T11:10:25","Dabe","elk_env path",2
+"conductor","03f71101","2020-03-22T11:03:02","Dabe","container name not matched",3
+"conductor","2a746725","2020-03-22T10:02:12","Dabe","Да, я поменял везде конфиги",4
+"conductor","388b4300","2020-03-21T17:05:25","Dabe","sort arg is list",3
+"conductor","94a0091f","2020-03-21T16:56:12","Dabe","contains swap",2
+"conductor","d6826da7","2020-03-20T17:21:17","Dabe","Update compose configs",2
+"conductor","5701601e","2020-03-20T17:05:56","Dabe","Diff remote",2
+"conductor","ea2c04d4","2020-03-20T16:11:57","Dabe","devExpress request handler",2
+"conductor","6a40028f","2020-03-20T14:48:27","Dabe","Response class",2
+"conductor","8a99dcc4","2020-03-20T10:31:11","Dabe","More flexible removing of extension in compose files",6
+"conductor","4772203c","2020-03-20T10:26:05","Dabe","pcap clearing by DELETE method",4
+"conductor","f70f35c5","2020-03-20T10:24:33","Dabe","return simple OK",2
+"conductor","03137c60","2020-03-16T18:19:16","Dabe","HostName info",2
+"conductor","9334a66b","2020-03-16T16:48:47","Dabe","restore containers",2
+"conductor","41b006d4","2020-03-16T16:34:43","Dabe","Added monitor",2
+"conductor","d65158df","2020-03-16T15:55:32","Dabe","remove json in request",3
+"conductor","a7c7c551","2020-03-16T15:21:37","Dabe","abort(401) import",2
+"conductor","626f1ff0","2020-03-16T15:08:14","Dabe","split conpot",2
+"conductor","e5a3d9d5","2020-03-16T14:05:37","Dabe","docker-compose up/down",2
+"conductor","9c7ce429","2020-03-15T17:02:12","Dabe","Added docs",2
+"conductor","36b4b7bd","2020-03-15T17:01:59","Dabe","Added suricata pcap logs",3
+"conductor","d2835389","2020-03-14T11:50:20","Dabe","removed yml files",3
+"conductor","188ac88b","2020-03-14T11:22:29","Dabe","Added auth toke",3
+"conductor","b2a80f32","2020-03-14T11:08:58","Dabe","suricata pcaplog enabling",3
+"conductor","4b6abde0","2020-03-13T20:05:05","Dabe","Replaced composer in routes",3
+"conductor","f94bf962","2020-03-13T20:00:31","Dabe","regex tag toggling",3
+"conductor","26b6cf43","2020-03-13T17:40:48","Dabe","Added requirements.txt",2
+"conductor","52a72592","2020-03-13T17:39:22","Dabe","added .gitignore",2
+"conductor","1fe9eeaf","2020-03-13T17:38:31","Dabe","Multiple commenting doesnt add multiple hashtags",5
+"conductor","ad61541d","2020-03-13T17:06:09","Dabe","initial commit",2
+"dockers","34a51e72","2020-06-10T11:35:45","Wendy","change compose file for dionaea",3
+"dockers","7707c5a4","2020-06-10T11:32:26","Wendy","fix dionaea bitstrams and error.log",3
+"dockers","ac8a823a","2020-06-03T12:19:30","Wendy","Merge branch 'changes-to-merge' into 'master'",3
+"dockers","2ac5f8a8","2020-06-02T13:35:06","Carol","ciscoasa_v2: add logging, file.log -> file.json; some bugs fixed",0
+"dockers","276f5e84","2020-06-02T11:38:37","Wendy","Merge branch 'changes-to-merge' into 'master'",3
+"dockers","363ec636","2020-05-29T12:04:24","Carol","fatt_v2: pyshark memory leak problem solved",2
+"dockers","61235548","2020-05-25T16:47:19","Wendy","Merge branch 'changes-to-merge' into 'master'",3
+"dockers","e28c92d3","2020-05-24T16:27:18","Carol","kako_v2: -you can change active simulations with docker-compose.yml file, -you...",4
+"dockers","68c4f04b","2020-05-21T09:17:33","Wendy","Merge branch 'changes-to-merge' into 'master'",3
+"dockers","6e32133b","2020-05-20T21:25:51","Carol","KAKO: kako.json,kako.log; NTP: ntp_logs.json; DNS: dns.json,error.log +logbugs fix",0
+"dockers","cdbbd2af","2020-05-14T13:17:47","Victor","added session to downloads filename",3
+"dockers","42374e44","2020-05-12T09:16:45","Victor","added composes backup",2
+"dockers","8b02d379","2020-05-06T17:23:51","Victor","Добавил Fatt",1
+"dockers","d023d9c3","2020-04-24T15:57:27","Bob","v2, head/tail problem solved",2
+"dockers","4629cb29","2020-04-15T13:47:21","Mallory","removed filebeat from traps",3
+"dockers","7aec0a41","2020-04-15T11:09:09","Mallory","moved ntpserver sources from logs path",4
+"dockers","b0f3f7d0","2020-04-14T17:42:11","Wendy","fix build",1
+"dockers","ba9c2939","2020-04-13T12:05:28","Bob","insults.dataReceived(): file head/tail problem solved",3
+"dockers","aef3acb5","2020-04-13T11:30:00","Mallory","moved trap docker files into new branch",5
+"sensor","d275bcda","2020-06-10T10:17:03","Wendy","No more log rotate",2
+"sensor","ac6c6b1b","2020-06-04T20:44:51","Wendy","Update rules.yaml",1
+"sensor","65ab088c","2020-06-04T20:33:07","Wendy","Добавлен энтрипоинт",1
+"sensor","09a3e460","2020-06-04T18:28:36","Wendy","add rules folder",1
+"sensor","6ff623e0","2020-06-04T16:17:13","Wendy","fix rules.yaml",1
+"sensor","eff13b2a","2020-06-04T15:47:26","Wendy","add folder for suricata",2
+"sensor","7e498ae1","2020-05-29T09:49:54","Wendy","Update update.sh",1
+"sensor","f38d0e0a","2020-05-14T10:16:15","Victor","enable swap on boot",2
+"sensor","7e8890ce","2020-05-13T16:54:04","Victor","swap файл",1
+"sensor","1083bfeb","2020-05-13T12:51:35","Victor","не перезаписывать athena.rule при обнавлении",3
+"sensor","55a46ade","2020-05-12T16:53:07","Victor","Авторизация в ЕЛК",2
+"sensor","ca70b3ad","2020-05-08T14:19:52","Victor","Автодобавление athena.rule",1
+"sensor","14379e78","2020-05-08T13:27:51","Victor","Added docker auth config",2
+"sensor","5d802a89","2020-05-08T12:39:02","Victor","Поменял порт ELK",2
+"sensor","155a3270","2020-05-08T10:02:53","Victor","Добавил zabbix в группу docker",3
+"sensor","3c89f59b","2020-05-07T09:57:20","Victor","Переместил set_permissions в bin",2
+"sensor","8c2bfd75","2020-05-06T15:41:59","Victor","Парсинг json теперь в конфиге сервиса",4
+"sensor","4207b0f0","2020-05-06T14:32:40","Victor","Обновил скрипты процессинги",2
+"sensor","ba82f6f8","2020-05-06T13:59:42","Victor","Update gsub.js",1
+"sensor","3b5d6df1","2020-05-06T11:39:39","Victor","Update filebeat",1
+"sensor","bf6cb49e","2020-05-06T09:36:22","Victor","Добавил старые репозитории чтобы установить zabbex 3.0.7",4
+"sensor","75567a59","2020-05-05T12:00:25","Victor","забекс устанавливаем отдельно",2
+"sensor","04ac3786","2020-05-05T10:56:16","Victor","ignore missing",1
+"sensor","584d689f","2020-05-01T12:04:04","Victor","Delete .gitmodules",1
+"sensor","90cedaef","2020-05-01T11:48:58","Wendy","add athena.rule",1
+"sensor","50689430","2020-04-30T12:58:41","Victor","пусть подавится",1
+"sensor","b15acda0","2020-04-30T11:33:41","Victor","Забытая древняя магия не поддерживается docker",4
+"sensor","43334950","2020-04-30T11:05:27","Victor","смена elk адреса",2
+"sensor","70ef45bf","2020-04-30T10:20:50","Victor","пакеты для авторизации в докер регистре",4
+"sensor","6efb6bff","2020-04-30T10:10:18","Victor","рестартим докер в обновлении",3
+"sensor","e1dfda7b","2020-04-30T10:01:47","Victor","в компоузах имя регистра avsw.traps",3
+"sensor","058b0994","2020-04-30T09:51:03","Victor","настройка прав отдельным скриптом",3
+"sensor","9950eb18","2020-04-30T09:32:01","Victor","acl права в update.sh",3
+"sensor","6d52809f","2020-04-30T09:28:19","Victor","выключение dbconf окна для postinstall",3
+"sensor","f31bcced","2020-04-30T09:27:27","Victor","права через acl",2
+"sensor","f48b75ce","2020-04-29T15:00:53","Victor","chmod +x install.sh",2
+"sensor","49fd7c37","2020-04-29T14:50:48","Victor","Обновление pip, чтоб он ставил сразу wheel без компиляции",6
+"sensor","eb6ce707","2020-04-29T14:28:44","Victor","Разбил установку на 2 части",3
+"sensor","79c65340","2020-04-29T08:55:13","Victor","Авторизация в докер регистре",3
+"sensor","902b7d94","2020-04-28T09:26:22","Trudy","Удалил подмодуль",1
+"sensor","c9ad5d08","2020-04-24T19:38:51","Victor","Обновить 'host/lib/systemd/system/trapconductor.service'",1
+"sensor","cf1f8dc4","2020-04-24T19:02:36","Victor","Рестартить trapconductor после изменения tun0 интерфейса",4
+"sensor","18389d5e","2020-04-24T16:05:41","Victor","Обновить 'myinstaller.sh'",1
+"sensor","d880e68d","2020-04-24T14:30:59","Victor","force copy",1
+"sensor","263e4806","2020-04-24T11:40:29","Trudy","update execute permissions",2
+"sensor","8be10481","2020-04-24T11:33:27","Trudy","added update script",2
+"sensor","2149506b","2020-04-24T11:15:38","Victor","Обновить 'configs/filebeat/filebeat.yml'",1
+"sensor","27685471","2020-04-24T10:49:58","Victor","zabbix fixes",0
+"sensor","cba3e831","2020-04-24T10:48:54","Victor","insure debconf vars are set",3
+"sensor","134c2e85","2020-04-24T10:38:24","Victor","export DEBIAN_FRONTEND=noninteractive",1
+"sensor","d4190128","2020-04-24T10:28:28","Victor","noniterative",1
+"sensor","d4b5ec91","2020-04-24T10:22:59","Victor","untar proper args",2
+"sensor","2481f187","2020-04-23T21:01:53","Victor","lowering filebeat config permissions",3
+"sensor","d63617be","2020-04-22T19:07:30","Victor","start openvpn service",2
+"sensor","1e20c756","2020-04-22T10:08:35","Victor","added zabbix archive",2
+"sensor","34c1e635","2020-04-22T10:07:56","Victor","install zabbix",1
+"sensor","8733e39c","2020-04-20T08:44:26","Wendy","Изменён ssh порт",2
+"sensor","cd9e6808","2020-04-17T15:37:43","Mallory","add openvpn service",2
+"sensor","287750a4","2020-04-15T14:42:36","Victor","python3-dev to install requirements",3
+"sensor","93560977","2020-04-15T14:35:22","Victor","append using echo >>",3
+"sensor","0f8b2108","2020-04-15T13:54:04","Mallory","install filebeat from offisial repository",3
+"sensor","a04d8838","2020-04-13T16:23:43","Mallory","bugfixes after test",2
+"sensor","dd2630b0","2020-04-13T11:23:48","Mallory","docker files are moved into docker branch",4
+"sensor","0649f5bc","2020-04-10T16:15:47","Mallory","moved config files to /opt/avssoft/configs",3
+"sensor","a66a373a","2020-04-10T13:07:33","Mallory","Updated installer as ",2
+"sensor","5f540152","2020-04-09T11:46:33","Alice","bug fixes",0
+"sensor","683d099a","2020-04-09T10:40:31","Alice","add ntp honeypot",1
+"sensor","e8ecc598","2020-04-08T15:47:05","Mallory","reduce image dns and kako image sizes",4
+"sensor","ee1fecba","2020-04-08T12:22:36","Eve","Склонирован cowrie для его модификации",3
+"sensor","361538d8","2020-04-07T16:12:45","Eve","Изменение конфига и композа FIlebeat для мультиконфигового будущего",5
+"sensor","18789922","2020-04-07T08:35:25","Mallory","chmod after logrotate",2
+"sensor","baafab2f","2020-04-06T12:45:36","Mallory","Add avsw.traps host",2
+"sensor","0f6c9576","2020-04-03T12:08:30","Mallory","filebeat kako /log path added",3
+"sensor","3cb75a21","2020-04-03T12:06:38","Mallory","docker-compose overwrite simulations so added log path",4
+"sensor","e89b5587","2020-04-03T11:16:53","Mallory","added kako trap",2
+"sensor","1e42c0f9","2020-04-02T14:28:44","Mallory","dns cannot log into /usr/lib direcotry",4
+"sensor","4f2ef924","2020-04-02T13:52:38","Mallory","Added dns trap logs in filebeat config",4
+"sensor","f6dade2e","2020-04-02T13:48:36","Mallory","create log path for dns trap",4
+"sensor","15b58d3c","2020-04-02T13:32:54","Mallory","added dns trap",2
+"sensor","16ca07bb","2020-04-01T18:05:28","Mallory","/data/cowrite clones in filebeat config",3
+"sensor","b1e57cdb","2020-04-01T17:49:46","Mallory","clean without removement",2
+"sensor","38e51945","2020-04-01T15:03:25","Eve","Revert 'Update .gitignore, adbhoney.yaml, and 25 more files...'",5
+"sensor","269ffd79","2020-04-01T14:42:51","Eve","Update .gitignore, adbhoney.yaml, and 25 more files...",4
+"sensor","39c53d6e","2020-04-01T14:24:53","Mallory","remove logstash and change data path in filebeat",5
+"sensor","60d566c1","2020-04-01T13:47:59","Mallory","filebeat elastic output",2
+"sensor","16809da4","2020-04-01T13:21:45","Mallory","chmod 777 for data after cleaning",4
+"sensor","95006fa1","2020-04-01T12:47:34","Mallory","configs are moved to /lib",3
+"sensor","f946e945","2020-04-01T12:27:44","Mallory","Added logrotate",1
+"sensor","ebada797","2020-03-28T13:10:53","Mallory","copy filebeat configs revucrsive",3
+"sensor","57b752ce","2020-03-28T12:52:45","Mallory","Get filebeat from elastic repository",3
+"sensor","d45d42cd","2020-03-28T12:43:19","Mallory","replaced logstash with filebeat",3
+"sensor","e9a022b5","2020-03-28T12:41:56","Mallory","Added filebeat docker file",3
+"sensor","806674ce","2020-03-28T11:58:00","Mallory","added filebeat config",2
+"sensor","92d7968c","2020-03-23T13:41:02","Eve","installer changes",1
+"sensor","82d49577","2020-03-23T13:37:48","Eve","installer changes",1
+"sensor","bd92ad7d","2020-03-23T13:07:37","Dabe","start trapconductor",1
+"sensor","38358078","2020-03-23T13:05:05","Dabe","Updated host/lib",1
+"sensor","5b1ecbcd","2020-03-23T12:54:35","Dabe","setting hostname",1
+"sensor","a3f5b753","2020-03-23T12:30:52","Dabe","heralding default dockerfile",2
+"sensor","e8155942","2020-03-23T11:27:40","Dabe","unnesserity /data path permissions setting",3
+"sensor","e748af51","2020-03-23T11:20:50","Dabe","added trapconductor",1
+"sensor","a4574093","2020-03-23T11:07:07","Dabe","sensor",1
